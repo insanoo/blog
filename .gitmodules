@@ -1,0 +1,4 @@
+[submodule "insanoo.github.io"]
+	path = insanoo.github.io
+	url = https://github.com/insanoo/insanoo.github.io.git
+	branch = master
