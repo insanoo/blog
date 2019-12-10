@@ -1,0 +1,27 @@
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content='{{ .Site.Params.metadesc }}'>
+	<meta name="keywords" content='{{ .Site.Params.metakeys }}'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href='{{ "css/bootstrap.min.css" | absURL }}'>
+	<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}</title>
+	<link rel="icon" href="/img/logo1.png" />
+
+	
+	<nav class="navbar  justify-content-center text-center bg-white">
+			<div class="d-flex flex-nowrap bd-highlight">
+                    <div class="order-1 p-2 bd-highlight">
+					<a href='{{ .Site.BaseURL }}'><span class=" btn btn-sm btn-outline-primary">Home</span></a>
+					</div>
+					<div class="order-2 p-2 bd-highlight">
+					<a href='{{ "about" | absURL }}'><span class="btn btn-sm btn-outline-secondary">About</span></a>
+					</div>
+					<div class="order-3 p-2 bd-highlight">
+					<a href='{{ "portofolio" | absURL }}'><span class="btn btn-sm btn-outline-success">Portofolio</span></a>
+					</div>
+			</div>
+	</nav>
+	
+	
+		
+</head>

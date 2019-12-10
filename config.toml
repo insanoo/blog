@@ -1,0 +1,44 @@
+title = "Sanitarium"
+baseurl = "https://insanoo.github.io/"
+
+# Agar front-matter pakai format YAML
+MetaDataFormat = "yaml"
+
+# untuk apply temanya
+themesDir = "themes"
+theme = "monopriv"
+
+# Shortname disqus, silahkan sesuaikan
+DisqusShortname = "insansanit"
+
+[permalinks]
+  post = "/blog/:slug/"
+  page = "/:slug/"
+
+
+# Untuk deskripsi tag meta di homepage
+description = "Blog Insan"
+
+# Biodata Author
+[author]
+    name = "Insan Gumelar"
+    homepage = "https://twitter.com/insaanoo"
+    bio = "Yang penting adalah tujuannya"
+   
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    wight = 1
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    wight = 2
+  [[menu.main]]
+    identifier = "portofolio"
+    name = "Portofolio"
+    url = "/portofolio/"
+    wight = 3
