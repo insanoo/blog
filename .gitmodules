@@ -6,3 +6,7 @@
 	path = public
 	url = https://github.com/insanoo/insanoo.github.io.git
 	branch = master
+[submodule "public/public"]
+	path = public/public
+	url = https://github.com/insanoo/insanoo.github.io.git
+	branch = master
